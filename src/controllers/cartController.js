@@ -203,7 +203,6 @@ const updateCart = async function (req, res) {
         }
 
         if (removeProduct === 1) {
-            initialItems = totalItems
             let flag = false
             for (let i = 0; i < itemsArr.length; i++) {
                 if (productId == itemsArr[i].productId._id) {
